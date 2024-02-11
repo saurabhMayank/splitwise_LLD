@@ -1,6 +1,21 @@
 # splitwise_LLD
 LLD OF splitwise Platform
 
+# Requirements Section
+Requirements of the system Listed
+
+# Use case Diagram Section
+Use case Diagrams for the System
+
+# Models
+Diagram of all the Models of the system
+
+# API Contracts
+All the APIs of the System will be Listed there in the py file
+
+# Class Diagram
+Class Diagram of the System
+
 # Design Should Answer these 3 questions
 - A user can see how much money he owes and lend and whom.
   - Using the show_user_balance function
