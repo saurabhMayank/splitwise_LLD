@@ -2,8 +2,8 @@ Functional API Contracts
 
 # Group APIs
 Group create_group(string name, List<User> user_list)
-Group update_group(Group group, string name)
-Group add_user_to_group(Group group, String name)
+Group update_group(Group group, string name) # can update name of the group
+Group add_user_to_group(Group group, User user)
 
 # Expense CRUD APIs
 # User paidBy -> who paid the bill of the expense
