@@ -24,7 +24,7 @@ Class Diagram of the System
 - Expense can distribute unequally and equally among group members (can be selected members also. ex: 4/10 members)
     - Using the Split Factory and Split expense functionality -> Split can be done, exact, equal, percentage
     - When the expense is split then update_balance in Transaction Service is called which updates the balance in the following way
-         - When creating expense -> userPaidBy is also passed
+         - When creating split -> userPaidBy is also passed
          - List<Split> has the bifurcation how to split the amount among the users of the group
          - So when split_expense is called -> it updates the row of the Balance Sheet with group info, which user has paid, which user owes how much
          - Then it updates the UserBalance Model -> In that for each User and Group -> We have a column where credit/ debit info per all the users of the group mentioned
